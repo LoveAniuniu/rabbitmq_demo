@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="consumer-demo" />
+        <module name="rabbitmq-client-demo" />
+        <module name="rabbitmq-springboot-project-demo" />
+        <module name="rabbitmq-spring-demo" />
+        <module name="producer-demo" />
+        <module name="rabbbit-springboot-demo" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="proejct-producer" target="1.7" />
+      <module name="project-producer-demo" target="1.8" />
+      <module name="rabbitmq-springboot-project-demo" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="consumer-demo" options="-parameters" />
+      <module name="producer-demo" options="-parameters" />
+      <module name="project-producer-demo" options="-parameters" />
+      <module name="rabbbit-springboot-demo" options="-parameters" />
+      <module name="rabbitmq-client-demo" options="-parameters" />
+      <module name="rabbitmq-spring-demo" options="" />
+    </option>
+  </component>
+</project>
